@@ -1,14 +1,22 @@
-import sys 
+import sys
 from src.logger import logging
+import traceback
 
+# This function will extract the error message details
 def error_message_detail(error, error_detail: sys):
-    _, _, exc_tb = error_detail.exc_info()
+    _, _, exc_tb = error_detail.exc_info()  # Capture the exception info
+    if exc_tb is None:  # If no traceback, return the basic error message
+        return str(error)
+
+    # Extract file name and line number from the traceback object
     file_name = exc_tb.tb_frame.f_code.co_filename
-    error_message = "Error occurred in python script name [{0}] line number [{1}] error message [{2}]".format(
-        file_name, exc_tb.tb_lineno, str(error)
+    error_message = (
+        "Error occurred in python script name [{0}] line number [{1}] error message [{2}]"
+        .format(file_name, exc_tb.tb_lineno, str(error))
     )
     return error_message
 
+# Custom Exception class that formats and returns detailed error messages
 class CustomException(Exception):
     def __init__(self, error_message, error_detail: sys):
         super().__init__(error_message)
@@ -17,10 +25,10 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
 
-if __name__=="__main__":
-
+# Testing the CustomException class
+if __name__ == "__main__":
     try:
-        a=1/0
+        a = 1 / 0
     except Exception as e:
         logging.info("Divide by Zero")
-        raise CustomException(e,sys)
+        raise CustomException(e, sys)

@@ -1,0 +1,13 @@
+[2024-10-07 20:50:14,674] 24 root - INFO - Entered the data ingestion method or component
+[2024-10-07 20:50:14,684] 27 root - INFO - dataset uploaded
+[2024-10-07 20:50:14,697] 32 root - INFO - Train test split initiated
+[2024-10-07 20:50:14,714] 38 root - INFO - ingestion of data is completed
+[2024-10-07 20:50:14,740] 70 root - INFO - reading tranining and test datasets completed
+[2024-10-07 20:50:14,741] 73 root - INFO - obtaining preprocessing object
+[2024-10-07 20:50:14,741] 49 root - INFO - Numerical columns standard scaling completed:['writing score', 'reading score']
+[2024-10-07 20:50:14,741] 51 root - INFO - Categorical columns encoding completed['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course']
+[2024-10-07 20:50:14,743] 85 root - INFO - applying preprocessing object on training dataframe and testing datafram
+[2024-10-07 20:50:14,763] 97 root - INFO - Saved preprocessing object.
+[2024-10-07 20:50:14,770] 32 root - INFO - splitting training and test input data
+[2024-10-07 20:50:55,618] 88 root - INFO - model report: {'Linear Regression': 0.8793835046174381, 'K-Neighbors Regressor': 0.47561174068704326, 'Decision Tree': 0.7533886965641263, 'Random Forest Regressor': 0.8493628732547852, 'Gradient Boosting Regressor': 0.8724825010123483, 'XGBRegressor': 0.8492434722253639, 'CatBoosting Regressor': 0.8613734525258083, 'AdaBoost Regressor': 0.8506474580742062}
+[2024-10-07 20:50:55,618] 99 root - INFO - Best model found on both training and testing dataset
