@@ -1,0 +1,5 @@
+[2024-10-09 01:49:13,149] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-10-09 01:49:13,299] 97 werkzeug - INFO -  * Debugger PIN: 143-496-523
+[2024-10-09 01:49:26,224] 97 werkzeug - INFO - 127.0.0.1 - - [09/Oct/2024 01:49:26] "GET / HTTP/1.1" 200 -
+[2024-10-09 01:49:28,112] 97 werkzeug - INFO - 127.0.0.1 - - [09/Oct/2024 01:49:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-10-09 01:49:34,337] 97 werkzeug - INFO - 127.0.0.1 - - [09/Oct/2024 01:49:34] "GET /predictdata HTTP/1.1" 200 -

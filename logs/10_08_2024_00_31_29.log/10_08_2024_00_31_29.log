@@ -1,0 +1,12 @@
+[2024-10-08 00:31:30,020] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-10-08 00:31:30,036] 97 werkzeug - INFO -  * Debugger PIN: 143-496-523
+[2024-10-08 00:31:35,618] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:31:35] "GET / HTTP/1.1" 200 -
+[2024-10-08 00:31:35,980] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:31:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-10-08 00:31:36,467] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:31:36] "GET /predictdata HTTP/1.1" 200 -
+[2024-10-08 00:31:42,487] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:31:42] "POST /predictdata HTTP/1.1" 200 -
+[2024-10-08 00:31:42,773] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:31:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-10-08 00:32:07,580] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:32:07] "POST /predictdata HTTP/1.1" 200 -
+[2024-10-08 00:32:07,981] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:32:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-10-08 00:33:01,866] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:33:01] "POST /predictdata HTTP/1.1" 200 -
+[2024-10-08 00:33:02,461] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:33:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-10-08 00:35:55,886] 97 werkzeug - INFO -  * Detected change in 'D:\\Machine learning krishk naik\\ML-Project\\app.py', reloading

@@ -1,0 +1,19 @@
+[2024-10-08 00:16:23,213] 97 werkzeug - WARNING -  * Debugger is active!
+[2024-10-08 00:16:23,230] 97 werkzeug - INFO -  * Debugger PIN: 143-496-523
+[2024-10-08 00:16:29,960] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:16:29] "GET / HTTP/1.1" 200 -
+[2024-10-08 00:16:33,673] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:16:33] "GET /predictdata HTTP/1.1" 200 -
+[2024-10-08 00:16:47,515] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:16:47] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2024-10-08 00:16:48,047] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:16:48] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-08 00:16:48,142] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:16:48] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-08 00:16:48,350] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:16:48] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=n8dpDWkSOJCU1FbHASbK HTTP/1.1" 200 -
+[2024-10-08 00:16:48,436] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:16:48] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-10-08 00:17:19,732] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:17:19] "GET / HTTP/1.1" 200 -
+[2024-10-08 00:17:20,190] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:17:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-10-08 00:17:25,295] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:17:25] "GET /predictdata HTTP/1.1" 200 -
+[2024-10-08 00:17:26,310] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:17:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-10-08 00:17:39,221] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:17:39] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2024-10-08 00:17:39,419] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:17:39] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-10-08 00:17:39,427] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:17:39] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-10-08 00:17:39,535] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:17:39] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=n8dpDWkSOJCU1FbHASbK HTTP/1.1" 200 -
+[2024-10-08 00:17:39,587] 97 werkzeug - INFO - 127.0.0.1 - - [08/Oct/2024 00:17:39] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-10-08 00:18:58,860] 97 werkzeug - INFO -  * Detected change in 'D:\\Machine learning krishk naik\\ML-Project\\app.py', reloading

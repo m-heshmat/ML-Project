@@ -1,0 +1,34 @@
+[2024-10-07 23:47:10,525] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.103:5000
+[2024-10-07 23:47:10,525] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-10-07 23:47:54,048] 97 werkzeug - INFO - 127.0.0.1 - - [07/Oct/2024 23:47:54] "GET / HTTP/1.1" 200 -
+[2024-10-07 23:47:54,729] 97 werkzeug - INFO - 127.0.0.1 - - [07/Oct/2024 23:47:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-10-07 23:48:01,168] 97 werkzeug - INFO - 127.0.0.1 - - [07/Oct/2024 23:48:01] "GET /predictdata HTTP/1.1" 200 -
+[2024-10-07 23:48:39,317] 838 app - ERROR - Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "D:\Machine learning krishk naik\ML-Project\src\pipeline\predict.py", line 17, in predict
+    data_scaled=preprocessor.transform(features)
+AttributeError: 'LinearRegression' object has no attribute 'transform'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Machine learning krishk naik\ML-Project\venv\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "d:\Machine learning krishk naik\ML-Project\venv\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "d:\Machine learning krishk naik\ML-Project\venv\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "d:\Machine learning krishk naik\ML-Project\venv\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "app.py", line 38, in predict_datapoint
+    results=predict_pipeline.predict(pred_df)
+  File "D:\Machine learning krishk naik\ML-Project\src\pipeline\predict.py", line 21, in predict
+    raise CustomException(e,sys)
+src.exceptions.CustomException: Error occurred in python script name [D:\Machine learning krishk naik\ML-Project\src\pipeline\predict.py] line number [17] error message ['LinearRegression' object has no attribute 'transform']
+[2024-10-07 23:48:39,321] 97 werkzeug - INFO - 127.0.0.1 - - [07/Oct/2024 23:48:39] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2024-10-07 23:50:47,531] 97 werkzeug - INFO - 127.0.0.1 - - [07/Oct/2024 23:50:47] "GET /predictdata HTTP/1.1" 200 -
+[2024-10-07 23:51:15,174] 97 werkzeug - INFO - 127.0.0.1 - - [07/Oct/2024 23:51:15] "GET /predictdata HTTP/1.1" 200 -
+[2024-10-07 23:51:16,241] 97 werkzeug - INFO - 127.0.0.1 - - [07/Oct/2024 23:51:16] "GET /predictdata HTTP/1.1" 200 -
